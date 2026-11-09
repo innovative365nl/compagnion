@@ -1,6 +1,6 @@
 # Changelog
 
-## 0.1.0 (136)
+## 0.1.0 (137)
 
 The first public release.
 
@@ -11,3 +11,4 @@ The first public release.
 - A dashboard with a column per status, and a command palette (⌘K).
 - Setup and run scripts, actions and terminals per repo, with a preview of localhost addresses.
 - The `compagnion` command-line tool in the app bundle.
+- Updates itself from the releases in this repository, checking the checksum and the Developer ID signature of every update.

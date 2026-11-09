@@ -16,13 +16,11 @@ With [Homebrew](https://brew.sh):
 brew install --cask innovative365nl/tap/compagnion
 ```
 
-This installs the app and the `compagnion` command-line tool; `brew upgrade` brings in new versions.
+This installs the app and the `compagnion` command-line tool.
 
-Or download the disk image from the [latest release](https://github.com/innovative365nl/compagnion/releases/latest) and drag Compagnion to Applications. Compagnion isn't notarized by Apple yet, so macOS blocks it the first time: go to **System Settings → Privacy & Security** and click **Open Anyway**, or run
+Or download the disk image from the [latest release](https://github.com/innovative365nl/compagnion/releases/latest) and drag Compagnion to Applications. It's signed with a Developer ID and notarized by Apple.
 
-```sh
-xattr -dr com.apple.quarantine /Applications/Compagnion.app
-```
+Compagnion updates itself: every six hours it checks for a new release and switches to it once no agent is busy (Settings → General → Update automatically).
 
 ## What you need
 

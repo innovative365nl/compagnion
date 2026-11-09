@@ -1,0 +1,16 @@
+name: Feature request
+description: Something you'd like Compagnion to do
+labels: [enhancement]
+body:
+  - type: textarea
+    id: what
+    attributes:
+      label: What would you like
+      description: What are you trying to do, and what's in the way now?
+    validations:
+      required: true
+  - type: textarea
+    id: more
+    attributes:
+      label: Anything else
+      description: How you work around it today, or how another tool does it.

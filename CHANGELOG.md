@@ -1,5 +1,10 @@
 # Changelog
 
+## 0.1.0 (138)
+
+- Updating by itself shows only a small notice in the corner, "Updating to …" and what it waits for, without buttons. The buttons come back when the restart fails, or when *Restart automatically on update* is off.
+- Clearer descriptions of the update settings.
+
 ## 0.1.0 (137)
 
 The first public release.

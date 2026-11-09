@@ -2,7 +2,7 @@
 
 <h1 align="center">Compagnion</h1>
 
-<p align="center">Run Claude Code and Codex agents in parallel on your Mac, each in its own git worktree.</p>
+<p align="center">Run Claude Code and Codex agents in parallel on your Mac, each in its own git worktree.<br><a href="https://compagnion.dev">compagnion.dev</a></p>
 
 Compagnion is a native Mac app for coding agents. Every task gets its own git worktree and branch, so several agents can work at once without getting in each other's way. You follow along, approve, review the diff of every turn, open a pull request and merge, all from one window.
 

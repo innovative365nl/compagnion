@@ -1,5 +1,14 @@
 # Changelog
 
+## 0.1.0 (364)
+
+- A panel above the message box shows what a Claude session runs in the background, such as a long command or a subagent: what each task does, how long it has been running, and a button that stops only that task. `compagnion session stop-task <session> <task-id>` does the same from the command line.
+- Stop in the message box now stops only the turn; background tasks keep running until they finish or you stop them in the panel.
+
+## 0.1.0 (363)
+
+- **Send now** works in Codex sessions that use subagents. Once a subagent had started, sending a queued message into the running turn failed with "expected active turn id … but found …", and Stop could fail the same way. A subagent finishing no longer ends the session's turn early either.
+
 ## 0.1.0 (362)
 
 - Claude sessions work again. Since the switch to the Claude Agent SDK in 0.1.0 (361), every Claude session stopped at its first message with "Operation aborted" or "SharedArrayBuffer is not defined": the Claude runtime in the app was signed without the entitlements it needs to run.

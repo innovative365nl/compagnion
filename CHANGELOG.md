@@ -1,5 +1,9 @@
 # Changelog
 
+## 0.1.0 (362)
+
+- Claude sessions work again. Since the switch to the Claude Agent SDK in 0.1.0 (361), every Claude session stopped at its first message with "Operation aborted" or "SharedArrayBuffer is not defined": the Claude runtime in the app was signed without the entitlements it needs to run.
+
 ## 0.1.0 (139)
 
 - Updating by itself works for the notarized app: macOS's App Management protection no longer stops Compagnion from replacing itself with a newer release.
